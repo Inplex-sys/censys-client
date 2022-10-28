@@ -21,7 +21,7 @@ To upgraded using `pip`.
 pip3 install -i https://test.pypi.org/simple/ --upgrade censys-client
 ```
 
-To configure your search credentials run `censys config` or set both `CENSYS_API_ID` and `CENSYS_API_SECRET` environment variables.
+To configure your search credentials run `censys-client --config`.
 ```sh
 $ censys-client --config
 Censys API ID (********************************98d1): CENSYS_API_ID
