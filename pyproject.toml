@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Inplex-sys/advanced-censys-client"
-"Bug Tracker" = "https://github.com/Inplex-sys/advanced-censys-client/issues"
+"Homepage" = "https://github.com/Inplex-sys/censys-client"
+"Bug Tracker" = "https://github.com/Inplex-sys/censys-client/issues"
