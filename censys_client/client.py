@@ -175,7 +175,7 @@ class Censys:
 
             if httpResponse['code'] == 200:
                 self.count = httpResponse['result']['count']
-                return httpResponse['result']['total']
+                return self.count
                 pass
         except:
             time.sleep(1)
@@ -243,7 +243,7 @@ def main():
         sys.exit()
         pass
 
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print(f"""{Main.textHighlight('Usage:')} censys-client '<query>' [--config --help]""")
         sys.exit()
         pass
