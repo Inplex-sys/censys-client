@@ -12,13 +12,13 @@
 The library can be installed using `pip3`.
 
 ```sh
-pip3 install -i https://test.pypi.org/simple/ censys-client
+pip3 install censys-client
 ```
 
 To upgraded using `pip`.
 
 ```sh
-pip3 install -i https://test.pypi.org/simple/ --upgrade censys-client
+pip3 install --upgrade censys-client
 ```
 
 To configure your search credentials run `censys-client --config`.
