@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
-"""setup.py: setuptools control."""
-
-
 import re
 from setuptools import setup
 
@@ -26,6 +20,6 @@ setup(
     description = "A censys client that allow to you to use multiple api key.",
     long_description = long_descr,
     author = "Inplex-sys",
-    author_email = "Inplex-sys@protonmail.com",
+    author_email = "Inplex-sys+CJzsQs9YERcEn5r9@protonmail.ch",
     url = "https://github.com/Inplex-sys/censys-client",
 )
