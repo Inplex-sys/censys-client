@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "censys-client"
+version = "0.1.1"
+dependencies = [
+    "requests",
+    "colored",
+]
+authors = [
+  { name="SystemVll", email="SystemVll@protonmail.com" },
+]
+description = "A censys client that allow to you to use multiple api key"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SystemVll/censys-client"
+"Bug Tracker" = "https://github.com/SystemVll/censys-client/issues"
